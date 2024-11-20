@@ -15,5 +15,5 @@ if [[ "$resolved_ip" != "$ip" &&  "$resolved_ip" != "" ]]; then
 elif [[ "$resolved_ip" == "$ip" && "$resolved_ip" != "" ]]; then
 	echo "Adresa $resolved_ip este corecta!"
 fi
-
+echo "update"
 done
